@@ -1,1 +1,54 @@
+﻿* {
+	padding: 0;
+	margin: 0;
+}
 
+body {
+	min-height:100vh; 
+	display: grid;
+	place-items: center;
+	box-sizing: border-box;
+	background-color: hsl(212, 45%, 89%);
+	font-family: 'Outfit', sans-serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+.card {
+	width: 350px;
+	border-radius: 15px;
+	padding: 15px ;
+	box-shadow: 3px 3px 30px #BDBDBD;
+}
+.card img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+
+
+.card-title {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: hsl(218, 44%, 22%);
+}
+
+.card-text {
+	color: hsl(220, 15%, 55%);
+	font-weight: 400;
+	padding: 5px;
+}
+
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+/* Notes
+
+font-family: 'Outfit', sans-serif;
+
+*/
